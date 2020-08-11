@@ -1,0 +1,26 @@
+ Whatever	we	use	to	find	an	element,	id,	name,	xpath	->	It	
+should	always	be	unique.It	should	only find one matching node	unless	we	want to capture a list of elements.
+Syntax:
+//tag[@attribute='value']
+
+Single "/" and double "//"
+
+Relative	xpath	using	single	‘/’	for	Login	link
+//div[@id='xyz']/div/div/div/ul/li[x]/a
+Relative	xpath	using	double	‘//’ for	Login	link.
+//div[@id='xyz']//ul/li[x]/a
+
+Using	Contains	to	find	the	elements:
+Syntax: //tag[contains(attribute,	‘value’)]
+
+Using	Starts-With	to	find	the	elements:
+Syntax:	//tag[starts-with(attribute,	‘value’)]
+
+Parent
+Syntax:	xpath-to-some-element//parent::<tag>
+
+Preceding	Sibling
+Syntax:	xpath-to-some-element//preceding-sibling::<tag>
+
+Following	Sibling
+Syntax:	xpath-to-some-element//following-sibling::<tag>
