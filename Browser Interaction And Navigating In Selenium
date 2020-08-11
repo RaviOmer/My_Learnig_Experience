@@ -1,0 +1,14 @@
+Some attributes are methods and others are properties.
+All the method attributes are ending with round brackets.
+
+-> For Maximizes the current window that webdriver is using --  maximize_window() 
+-> For Loads a web page in the current browser session --  driver.get(url)
+-> For Returns the title of the current page --  driver.title
+-> For URL of the current loaded page --  driver.current_url 
+-> For Refreshes the current page --  driver.refresh()
+-> For Refreshes the current page --  driver.get(driver.current_url)
+-> For Goes one step backward in the browser history --  driver.back() 
+-> For Goes one step forward in the browser history --  driver.forward()
+-> For Gets the source of the current page --  driver.page_source
+-> For Closes the current window --  driver.close() 
+-> For Quits the driver and close every associated window --  driver.quit()
